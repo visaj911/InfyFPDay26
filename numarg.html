@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>
+
+function calAvg()
+{
+	sum=0
+	
+	for(i=0;i<arguments.length;i++)
+	{
+		sum = sum + arguments[i];
+	}
+	return sum/arguments.length;
+}
+
+</script>
+</head>
+<body>
+<script>
+	document.write("<h1>Average of 1,2,3 is : "+calAvg(1,2,3)+"</h1>");</script>
+</script>
+</body>
+</html>
